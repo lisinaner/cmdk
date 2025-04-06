@@ -60,19 +60,19 @@ export function RaycastCMDK() {
             </Item>
           </Command.Group>
           <Command.Group heading="Commands">
-            <Item isCommand value="Clipboard History" keywords={['copy', 'paste', 'clipboard']}>
+            <Item isCommand value="剪贴板历史" keywords={['copy', 'paste', 'clipboard']}>
               <Logo>
                 <ClipboardIcon />
               </Logo>
-              Clipboard History
+            剪贴板历史
             </Item>
-            <Item isCommand value="Import Extension" keywords={['import', 'extension']}>
+            <Item isCommand value="导入扩展" keywords={['import', 'extension']}>
               <HammerIcon />
-              Import Extension
+              导入扩展
             </Item>
-            <Item isCommand value="Manage Extensions" keywords={['manage', 'extension']}>
+            <Item isCommand value="管理扩展" keywords={['manage', 'extension']}>
               <HammerIcon />
-              Manage Extensions
+             管理扩展
             </Item>
           </Command.Group>
         </Command.List>
